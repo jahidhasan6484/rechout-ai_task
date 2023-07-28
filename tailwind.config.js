@@ -12,6 +12,9 @@ export default {
         secondary: "#23B574",
       },
     },
+    screens: {
+      md: "1440px",
+    },
   },
   plugins: [],
 };

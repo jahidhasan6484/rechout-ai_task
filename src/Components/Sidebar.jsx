@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "../../public/logo.svg";
 import { MenuList } from "../Data/Data";
 
 const Sidebar = () => {
@@ -10,9 +9,7 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 h-screen w-64 bg-white text-white z-50 py-12 px-4">
-      <img className="mb-12" src={logo} alt="Reachout.ai" />
-
+    <div className="fixed top-0 left-0 h-screen w-64 bg-white text-white z-50 py-28 px-4">
       {menus.length > 0 &&
         menus.map((menu, index) => {
           const { name, imageURL } = menu;

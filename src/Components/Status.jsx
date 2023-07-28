@@ -3,7 +3,7 @@ import setting from "../../public/setting.svg";
 
 const Status = () => {
   return (
-    <div className="mt-6 px-2.5 py-6 bg-white rounded-lg grid grid-cols-4 gap-4">
+    <div className="mt-6 px-2.5 py-6 bg-white rounded-lg grid grid-cols-4 md:grid-cols-8 gap-4">
       <div className="col-span-2">
         <h1 className="font-semibold break-words">Job Title</h1>
         <div className="flex font-bold items-center justify-between">

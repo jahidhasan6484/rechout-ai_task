@@ -9,7 +9,7 @@ const Upload = () => {
         <div className="h-28 flex items-center justify-center mt-4 mb-2 space-x-2.5">
           <img src={upload} alt="Export" />
 
-          <label className="block text-secondary font-bold ">
+          <label className="block text-secondary font-bold">
             Drop or upload your file
           </label>
         </div>

@@ -7,13 +7,13 @@ const Options = () => {
     setOptions(OptionsList);
   }, []);
   return (
-    <div className="px-2.5 py-6">
+    <div className="px-2.5 py-6 grid grid-cols-1 md:grid-cols-6">
       {options.length > 0 &&
         options.map((option, index) => {
           return (
             <div
               key={index}
-              className="h-16 flex items-center hover:bg-white px-2.5 rounded-t-lg"
+              className="h-16 flex items-center hover:bg-white px-2.5 rounded-t-lg cursor-pointer"
             >
               <p>{option}</p>
             </div>
