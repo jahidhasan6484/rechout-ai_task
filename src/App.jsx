@@ -18,7 +18,7 @@ function App() {
       </div>
 
       <div className="bg-lightGray h-3/4 pt-8">
-        <div className="w-full px-4 xl:w-1/3 mx-auto space-y-12">
+        <div className="w-full px-4 xl:w-1/3 mx-auto space-y-12 pb-8">
           <div className="grid grid-cols-2 xl:grid-cols-3 gap-8">
             {socialMediaList.length > 0 &&
               socialMediaList.map((media, index) => {
